@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.wso2.eclipse.ballerina.editor.feature" version="0.0.0">
+      <category name="org.wso2.eclipse.ballerina.editor.feature.category"/>
+   </feature>
+   <category-def name="org.wso2.eclipse.ballerina.editor.feature.category" label="WSO2 Eclipse Ballerina Editor">
+      <description>
+         This is the Eclipse Editor for WSO2 Ballerina Language.
+      </description>
+   </category-def>
+</site>

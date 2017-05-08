@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.wso2.eclipse.ballerina.editor.feature"
+      label="WSO2 Eclipse Ballerina Editor Feature"
+      version="1.0.0.qualifier"
+      provider-name="%providerName">
+
+   <description url="http://wso2.com">
+      This feature will install plugins related to WSO2 Eclipse Ballerina Editor.
+   </description>
+
+   <copyright url="%copyrightURL">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <!--requires>
+		 <import feature="org.wso2.developerstudio.kernel.utils.feature"
+			version="0.0.0"/>
+  </requires-->
+
+   <plugin
+         id="org.wso2.eclipse.ballerina.editor.plugin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

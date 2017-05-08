@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="WSO2 BAL Editor"
+            extensions="bal"
+            icon="icons/dancer.jpg"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="org.wso2.eclipse.ballerina.editor.plugin.editors.BallerinaEditor"
+            id="org.wso2.eclipse.ballerina.editor.plugin.editors.BallerinaEditor">
+      </editor>
+   </extension>
+   
+
+
+</plugin>
